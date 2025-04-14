@@ -1,0 +1,23 @@
+.list-container {
+    width: 300px;
+    margin: 40px auto;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    background: #fdfdfd;
+  }
+  
+  .task {
+    padding: 10px;
+    background: white;
+    margin: 8px 0;
+    border-radius: 5px;
+    cursor: grab;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: background 0.2s ease;
+  }
+  
+  .task:hover {
+    background: #f0f0f0;
+  }
+  

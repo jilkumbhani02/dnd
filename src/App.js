@@ -1,4 +1,6 @@
 import "./App.css";
+import Dnd from "./Assignment/Dnd";
+import Form from "./Assignment/Form";
 import Todo from "./Assignment/Todo";
 import Parent from "./components/Handle/Parent";
 import Layout from "./components/Layout";
@@ -12,7 +14,9 @@ function App() {
       {/* <Ref /> */}
       {/* <Layout /> */}
       {/* <Parent /> */}
-      <Todo />
+      {/* <Todo /> */}
+      {/* <Dnd /> */}
+      <Form />
     </div>
   );
 }
